@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-07T12:33:51.576Z</updated>
+  <updated>2018-01-07T12:37:10.480Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/01/07/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2hexo/"/>
     <id>http://yoursite.com/2018/01/07/服务器部署hexo/</id>
     <published>2018-01-07T11:59:34.000Z</published>
-    <updated>2018-01-07T12:33:51.576Z</updated>
+    <updated>2018-01-07T12:37:10.480Z</updated>
     
     <content type="html"><![CDATA[<h3 id="服务器部署hexo"><a href="#服务器部署hexo" class="headerlink" title="服务器部署hexo"></a>服务器部署hexo</h3><p>由于国内访问 <em>hc1998.github.io</em> 的速度太慢，于是决定将博客部署至服务器<br><a id="more"></a></p><blockquote><p>hexo在服务器端部署需要：</p></blockquote><ol><li>安装环境：包括node.js、git库等环境</li><li>本地安装hexo</li><li>ssh连接（本地创建ssh公钥，添加至服务器端）</li><li>博客自动更新脚本</li></ol><blockquote><p>本地环境部署：</p></blockquote><ol><li>安装hexo环境</li><li>安装git bash工具</li><li>修改_config.yml文件中的<code>repository</code>改至自己的博客地址</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:hc1998/hc1998.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><ol><li><code>hexo clean</code> 清除缓存<br><br><code>hexo g</code> 生成静态网页<br><br><code>hexo d</code> 进行部署</li></ol><blockquote><p>总结部署至服务器失败原因：</p></blockquote><ul><li><p>由于购买的vps是 <em>CentOS 6.x</em> 的系统，自带的 <em>gcc</em> 版本为<code>v4.4.7</code>，不足以支撑 <em>node.js</em> 的安装。所以先进行了一次升级，升级至<code>v4.9.0</code>版本，升级时间大概为1小时，之后安装 <em>node.js</em> ，出现未知错误，导致编译失败，查了很久也没查出原因，故先告一段落。</p></li><li><p>在更换服务器系统之前，安装好所有环境进行调试的过程中，ssh请求失败。无法将数据提交给服务器建好的git库，导致数据无法上传。</p></li><li><p>检测过后发现服务器端ssh 22端口未打开，打开后问题依然存在。上网搜索后将空密码ssh公钥改成有密码公钥，依然未生效。</p></li></ul>]]></content>
     
@@ -39,22 +39,17 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/01/06/markdown%E7%BB%83%E4%B9%A0/"/>
-    <id>http://yoursite.com/2018/01/06/markdown练习/</id>
-    <published>2018-01-06T15:24:04.491Z</published>
-    <updated>2018-01-04T14:41:18.535Z</updated>
+    <title>markdown学习</title>
+    <link href="http://yoursite.com/2018/01/05/markdown%E7%BB%83%E4%B9%A0/"/>
+    <id>http://yoursite.com/2018/01/05/markdown练习/</id>
+    <published>2018-01-05T09:30:34.000Z</published>
+    <updated>2018-01-07T12:39:50.427Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="这是最高级别的标题"><a href="#这是最高级别的标题" class="headerlink" title="这是最高级别的标题"></a>这是最高级别的标题</h1><hr><hr><h2 id="这是第二级别的标题"><a href="#这是第二级别的标题" class="headerlink" title="这是第二级别的标题"></a>这是第二级别的标题</h2><h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><p><code>1、第一点</code></p><p><code>-这一点</code></p><p><code>** 加粗 **</code> <code>*斜体*</code> <code>~~删除线~~</code></p><p>这段话中加星号的 <em>是表示强调的斜线字段</em></p><p>这段话中加下划线的 <em>是表示强调的斜线字段</em></p><p>这段话中加下划线的 <strong>是表示加粗的字段</strong></p><blockquote><p>这是单行代码</p></blockquote><p><code>\</code>Hello World ``</p><blockquote><p>这是代码段 <code>前面要缩进一个tab或者四个空格</code></p></blockquote><pre><code>// 这是代码段int i;</code></pre><blockquote><p>这是引用</p></blockquote><p>####星号、加号、减号都是无序列表</p><ul><li><p>无序列表</p><p>这是子列表  <code>中间要空一行</code></p></li></ul><ul><li>无序列表</li></ul><ul><li>无序列表</li></ul><p>####这是有序列表<code>数字加上一个英文的点.</code></p><ol><li>hahhah</li><li>dsadasd</li><li>asdasdas</li></ol><p>##<a href="https://www.zhihu.com/question/20409634" title="这是知乎的链接" target="_blank" rel="noopener">知乎</a><code>后面引号内容是a标签的title</code></p><blockquote><p>可以给链接赋值便于管理</p></blockquote><p>##<a href="www.baidu.com" title="这是百度">百度</a></p><p>##<a href="www.taobao.com" title="这是淘宝">淘宝</a></p><p><code>版权符号</code>&copy;</p><table><thead><tr><th>表头</th><th>表头</th><th>表头</th></tr></thead><tbody><tr><td>第一个</td><td>第二个</td><td>第三个</td></tr><tr><td>md真好用</td><td>哈哈哈</td><td>最后一个</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<p>markdown学习<br><a id="more"></a></p><h1 id="这是最高级别的标题"><a href="#这是最高级别的标题" class="headerlink" title="这是最高级别的标题"></a>这是最高级别的标题</h1><hr><hr><h2 id="这是第二级别的标题"><a href="#这是第二级别的标题" class="headerlink" title="这是第二级别的标题"></a>这是第二级别的标题</h2><h1 id="这是标题"><a href="#这是标题" class="headerlink" title="这是标题"></a>这是标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><p><code>1、第一点</code></p><p><code>-这一点</code></p><p><code>** 加粗 **</code> <code>*斜体*</code> <code>~~删除线~~</code></p><p>这段话中加星号的 <em>是表示强调的斜线字段</em></p><p>这段话中加下划线的 <em>是表示强调的斜线字段</em></p><p>这段话中加下划线的 <strong>是表示加粗的字段</strong></p><blockquote><p>这是单行代码</p></blockquote><p><code>\</code>Hello World ``</p><blockquote><p>这是代码段 <code>前面要缩进一个tab或者四个空格</code></p></blockquote><pre><code>// 这是代码段int i;</code></pre><blockquote><p>这是引用</p></blockquote><h4 id="星号、加号、减号都是无序列表"><a href="#星号、加号、减号都是无序列表" class="headerlink" title="星号、加号、减号都是无序列表"></a>星号、加号、减号都是无序列表</h4><ul><li><p>无序列表</p><p>这是子列表  <code>中间要空一行</code></p></li></ul><ul><li>无序列表</li></ul><ul><li>无序列表</li></ul><h4 id="这是有序列表数字加上一个英文的点"><a href="#这是有序列表数字加上一个英文的点" class="headerlink" title="这是有序列表数字加上一个英文的点."></a>这是有序列表<code>数字加上一个英文的点.</code></h4><ol><li>hahhah</li><li>dsadasd</li><li>asdasdas</li></ol><h2 id="知乎后面引号内容是a标签的title"><a href="#知乎后面引号内容是a标签的title" class="headerlink" title="知乎后面引号内容是a标签的title"></a><a href="https://www.zhihu.com/question/20409634" title="这是知乎的链接" target="_blank" rel="noopener">知乎</a><code>后面引号内容是a标签的title</code></h2><blockquote><p>可以给链接赋值便于管理</p></blockquote><h2 id="百度"><a href="#百度" class="headerlink" title="百度"></a><a href="www.baidu.com" title="这是百度">百度</a></h2><h2 id="淘宝"><a href="#淘宝" class="headerlink" title="淘宝"></a><a href="www.taobao.com" title="这是淘宝">淘宝</a></h2><p><code>版权符号</code>&copy;</p><table><thead><tr><th>表头</th><th>表头</th><th>表头</th></tr></thead><tbody><tr><td>第一个</td><td>第二个</td><td>第三个</td></tr><tr><td>md真好用</td><td>哈哈哈</td><td>最后一个</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;这是最高级别的标题&quot;&gt;&lt;a href=&quot;#这是最高级别的标题&quot; class=&quot;headerlink&quot; title=&quot;这是最高级别的标题&quot;&gt;&lt;/a&gt;这是最高级别的标题&lt;/h1&gt;&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;这是第二级别的标题&quot;&gt;&lt;a href=&quot;#这是第二级别
-      
+      这是一个测试
     
     </summary>
     
