@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-02T08:12:36.724Z</updated>
+  <updated>2018-02-02T08:24:35.517Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,19 +21,14 @@
     <link href="http://yoursite.com/2018/02/02/linux%E5%AD%A6%E4%B9%A0%E6%9C%89%E6%84%9F/"/>
     <id>http://yoursite.com/2018/02/02/linux学习有感/</id>
     <published>2018-02-02T08:03:45.000Z</published>
-    <updated>2018-02-02T08:12:36.724Z</updated>
+    <updated>2018-02-02T08:24:35.517Z</updated>
     
-    <content type="html"><![CDATA[<p>###0x00</p><p>经过这段时间对linux的学习，总的来讲收获很多，之前一些不太懂的地方和没注意的地方都慢慢的补了回来。</p><hr><h3 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h3><p>这段时间主要的任务有两个：</p><ul><li>linux</li><li>Vue.js<ul><li>ES6</li><li>webpack</li></ul></li></ul><p>两者进度相差不多。</p><hr><h3 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h3><p>这段时间要记得更新博客。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近沉迷学习，今天才想起来好久没有更新博客了o(╥﹏╥)o</p><hr><a id="more"></a><h3 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h3><p>经过这段时间对linux的学习，总的来讲收获很多，之前一些不太懂的地方和没注意的地方都慢慢的补了回来。</p><hr><h3 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h3><p>这段时间主要的任务有两个：</p><ul><li>linux</li><li>Vue.js<ul><li>ES6</li><li>webpack</li></ul></li></ul><p>两者进度相差不多。</p><hr><h3 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h3><p>这段时间要记得更新博客。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;###0x00&lt;/p&gt;
-&lt;p&gt;经过这段时间对linux的学习，总的来讲收获很多，之前一些不太懂的地方和没注意的地方都慢慢的补了回来。&lt;/p&gt;
+      &lt;p&gt;最近沉迷学习，今天才想起来好久没有更新博客了o(╥﹏╥)o&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&quot;0x01&quot;&gt;&lt;a href=&quot;#0x01&quot; class=&quot;headerlink&quot; title=&quot;0x01&quot;
-      
     
     </summary>
     
