@@ -1,5 +1,5 @@
-http://yoursite.com/2018/02/04/前端面试题整理/
-http://yoursite.com/2018/02/02/linux学习有感/
-http://yoursite.com/2018/01/07/hexo技巧/
-http://yoursite.com/2018/01/07/服务器部署hexo/
-http://yoursite.com/2018/01/05/markdown练习/
+http://zary.top/前端面试题整理.html
+http://zary.top/linux学习有感.html
+http://zary.top/hexo技巧.html
+http://zary.top/服务器部署hexo.html
+http://zary.top/markdown练习.html
