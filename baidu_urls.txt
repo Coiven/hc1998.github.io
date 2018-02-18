@@ -1,5 +1,5 @@
-http://zary.top/前端面试题整理.html
-http://zary.top/linux学习有感.html
-http://zary.top/hexo技巧.html
-http://zary.top/服务器部署hexo.html
-http://zary.top/markdown练习.html
+http://www.zary.top/前端面试题整理.html
+http://www.zary.top/linux学习有感.html
+http://www.zary.top/hexo技巧.html
+http://www.zary.top/服务器部署hexo.html
+http://www.zary.top/markdown练习.html
