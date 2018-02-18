@@ -3,6 +3,28 @@
 
 
     
+  <url>
+    <loc>http://www.zary.top/test.html</loc>
+    <lastmod>2018-02-18T11:17:34.714Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2018-02-18T11:17:34.000Z</pubTime>
+        
+        <tag>111</tag>
+         
+        <tag>222</tag>
+         
+         
+           
+             
+              <breadCrumb title="aaa" url="http://www.zary.top/categories/aaa/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
