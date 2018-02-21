@@ -106,9 +106,9 @@
       <category term="blog" scheme="http://www.zary.top/categories/blog/"/>
     
     
-      <category term="blog" scheme="http://www.zary.top/tags/blog/"/>
-    
       <category term="学习" scheme="http://www.zary.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="blog" scheme="http://www.zary.top/tags/blog/"/>
     
   </entry>
   
