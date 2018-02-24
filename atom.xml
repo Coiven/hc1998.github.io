@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.zary.top/"/>
-  <updated>2018-02-18T11:36:08.368Z</updated>
+  <updated>2018-02-24T12:48:08.436Z</updated>
   <id>http://www.zary.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue.js笔记</title>
+    <link href="http://www.zary.top/Vuejs-note.html"/>
+    <id>http://www.zary.top/Vuejs-note.html</id>
+    <published>2018-02-24T12:30:00.000Z</published>
+    <updated>2018-02-24T12:48:08.436Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>对Vue.js需要注意的地方进行了归纳和整理</p></blockquote><a id="more"></a><h3 id="用户会看到花括号标记"><a href="#用户会看到花括号标记" class="headerlink" title="用户会看到花括号标记"></a>用户会看到花括号标记</h3><pre class="line-numbers language-这段是去除花括号的代码"><code class="language-这段是去除花括号的代码">v-cloak + [v-cloak] {display: none;}  // 阻止闪烁v-text="msg" // 同样可以阻止闪烁<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="外部挂载vue对象-gt-mount-‘-box’"><a href="#外部挂载vue对象-gt-mount-‘-box’" class="headerlink" title="外部挂载vue对象 ==&gt; $mount(‘#box’)"></a>外部挂载vue对象 ==&gt; $mount(‘#box’)</h3><pre><code>var vm = new Vue({    data:{}}).$mount(&#39;#box&#39;);</code></pre><h3 id="vue动画效果"><a href="#vue动画效果" class="headerlink" title="vue动画效果"></a>vue动画效果</h3><ul><li>在DOM节点中加入<code>&lt;transition name=&quot;fade&quot;&gt;...&lt;/transition&gt;</code> 标签对，将需要设置动画的节点包裹起来</li></ul><ul><li>css3实现动画效果</li></ul><pre><code>&lt;style&gt;  .fade-enter-active,  .fade-leave-active {    transition: all 1s ease;   //所有的动画效果在1s内完成，淡入淡出  }  .fade-enter,  .fade-leave-to {    opacity: 0;  //透明度    transform: translateX(200px);  //沿X轴位移200px  }&lt;style&gt;</code></pre><ul><li>结合animate.css</li></ul><pre><code>//先引入bower安装的animate.css文件&lt;link rel=&quot;stylesheet&quot; href=&quot;bower_components/animate.css/animate.css&quot;&gt;//在节点中应用&lt;transition enter-active-class=&quot;animeted zoomInLeft&quot; leave-active-class=&quot;animated zoomOutRight&quot;&gt;  ...&lt;/transition&gt;</code></pre><h3 id="vue中的组件"><a href="#vue中的组件" class="headerlink" title="vue中的组件"></a>vue中的组件</h3><ul><li>在Vue.component中加入<code>data</code> 数据的时候需要写成函数形式</li></ul><pre><code>Vue.component(&#39;...&#39;, {  data() {    return { //返回的必须是个json对象      msg: ...    }  },  template: `...`});</code></pre><ul><li>组件写在<code>&lt;template id=&quot;...&quot;&gt;&lt;/template&gt;</code> 内部</li></ul><ul><li>动态组件：<code>&lt;div :is=&quot;...&quot;&gt;&lt;/div&gt;</code> is后面绑定的组件是什么显示的就是什么组件</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      Vue.js, 学习笔记
+    
+    </summary>
+    
+      <category term="Vue.js, 学习笔记" scheme="http://www.zary.top/categories/Vue-js-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Vue.js" scheme="http://www.zary.top/tags/Vue-js/"/>
+    
+      <category term="学习笔记" scheme="http://www.zary.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>前端面试题整理</title>
@@ -109,30 +133,6 @@
       <category term="学习" scheme="http://www.zary.top/tags/%E5%AD%A6%E4%B9%A0/"/>
     
       <category term="blog" scheme="http://www.zary.top/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue.js笔记</title>
-    <link href="http://www.zary.top/Vuejs-note.html"/>
-    <id>http://www.zary.top/Vuejs-note.html</id>
-    <published>2018-01-05T09:30:34.000Z</published>
-    <updated>2018-02-24T12:13:02.573Z</updated>
-    
-    <content type="html"><![CDATA[<p>对Vue.js需要注意的地方进行了归纳和整理</p><a id="more"></a><h3 id="用户会看到花括号标记"><a href="#用户会看到花括号标记" class="headerlink" title="用户会看到花括号标记"></a>用户会看到花括号标记</h3><pre class="line-numbers language-这段是去除花括号的代码"><code class="language-这段是去除花括号的代码">v-cloak + [v-cloak] {display: none;}  // 阻止闪烁v-text="msg" // 同样可以阻止闪烁<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h3 id="外部挂载vue对象-gt-mount-‘-box’"><a href="#外部挂载vue对象-gt-mount-‘-box’" class="headerlink" title="外部挂载vue对象 ==&gt; $mount(‘#box’)"></a>外部挂载vue对象 ==&gt; $mount(‘#box’)</h3><pre><code>var vm = new Vue({    data:{}}).$mount(&#39;#box&#39;);</code></pre><h3 id="vue动画效果"><a href="#vue动画效果" class="headerlink" title="vue动画效果"></a>vue动画效果</h3><ul><li><p>在DOM节点中加入<code>&lt;transition  name=&quot;fade&quot;&gt;   &lt;/transition&gt;</code> 标签对，将需要设置动画的节点包裹起来</p></li><li><pre><code>&lt;style&gt;  .fade-enter-active,  .fade-leave-active {    transition: all 1s ease;   //所有的动画效果在1s内完成，淡入淡出  }  .fade-enter,  .fade-leave-to {    opacity: 0;  //透明度    transform: translateX(200px);  //沿X轴位移200px  }&lt;style&gt;</code></pre></li><li><p>结合animate.css</p><pre><code>//先引入bower安装的animate.css文件&lt;link rel=&quot;stylesheet&quot; href=&quot;bower_components/animate.css/animate.css&quot;&gt;//在节点中应用&lt;transition enter-active-class=&quot;animeted zoomInLeft&quot; leave-active-class=&quot;animated zoomOutRight&quot;&gt;  ...&lt;/transition&gt;</code></pre><p>​</p></li></ul><h3 id="vue中的组件"><a href="#vue中的组件" class="headerlink" title="vue中的组件"></a>vue中的组件</h3><ul><li><p>在Vue.component中加入<code>data</code> 数据的时候需要写成函数形式</p><pre><code>Vue.component(&#39;...&#39;, {  data() {    return { //返回的必须是个json对象      msg: ...    }  },  template: `...`});</code></pre></li><li><p>组件写在<code>&lt;template id=&quot;...&quot;&gt;&lt;/template&gt;</code> 内部</p></li><li><p>动态组件：<code>&lt;div :is=&quot;...&quot;&gt;&lt;/div&gt;</code> is后面绑定的组件是什么显示的就是什么组件</p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      Vue.js, 学习笔记
-    
-    </summary>
-    
-      <category term="Vue.js, 学习笔记" scheme="http://www.zary.top/categories/Vue-js-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="Vue.js" scheme="http://www.zary.top/tags/Vue-js/"/>
-    
-      <category term="学习笔记" scheme="http://www.zary.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
