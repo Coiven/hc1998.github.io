@@ -1,5 +1,6 @@
-http://www.zary.top/前端面试题整理.html
-http://www.zary.top/linux学习有感.html
-http://www.zary.top/hexo技巧.html
-http://www.zary.top/服务器部署hexo.html
-http://www.zary.top/markdown练习.html
+http://www.zary.top/front-end-interview-questions.html
+http://www.zary.top/linux-learning-target.html
+http://www.zary.top/hexo-skill.html
+http://www.zary.top/hexo-server-deployment.html
+http://www.zary.top/Vuejs-note.html
+http://www.zary.top/markdown-exercise.html

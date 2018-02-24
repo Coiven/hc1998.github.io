@@ -3,9 +3,31 @@
 
 
     
+  <url>
+    <loc>http://www.zary.top/Vuejs-note.html</loc>
+    <lastmod>2018-02-24T12:13:02.573Z</lastmod>
+    <data>
+        <display>
+        <title>Vue.js笔记</title>
+        <pubTime>2018-01-05T09:30:34.000Z</pubTime>
+        
+        <tag>Vue.js</tag>
+         
+        <tag>学习笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="Vue.js, 学习笔记" url="http://www.zary.top/categories/Vue-js-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
-    <loc>http://www.zary.top/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86.html</loc>
+    <loc>http://www.zary.top/front-end-interview-questions.html</loc>
     <lastmod>2018-02-18T11:36:08.368Z</lastmod>
     <data>
         <display>
@@ -29,7 +51,7 @@
 
     
   <url>
-    <loc>http://www.zary.top/markdown%E7%BB%83%E4%B9%A0.html</loc>
+    <loc>http://www.zary.top/markdown-exercise.html</loc>
     <lastmod>2018-02-18T11:36:06.962Z</lastmod>
     <data>
         <display>
@@ -49,7 +71,7 @@
 
     
   <url>
-    <loc>http://www.zary.top/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2hexo.html</loc>
+    <loc>http://www.zary.top/hexo-server-deployment.html</loc>
     <lastmod>2018-02-18T11:35:23.471Z</lastmod>
     <data>
         <display>
@@ -71,7 +93,7 @@
 
     
   <url>
-    <loc>http://www.zary.top/hexo%E6%8A%80%E5%B7%A7.html</loc>
+    <loc>http://www.zary.top/hexo-skill.html</loc>
     <lastmod>2018-02-18T11:34:28.297Z</lastmod>
     <data>
         <display>
@@ -91,7 +113,7 @@
 
     
   <url>
-    <loc>http://www.zary.top/linux%E5%AD%A6%E4%B9%A0%E6%9C%89%E6%84%9F.html</loc>
+    <loc>http://www.zary.top/linux-learning-target.html</loc>
     <lastmod>2018-02-18T11:33:18.453Z</lastmod>
     <data>
         <display>
