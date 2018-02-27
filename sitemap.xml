@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.zary.top/webpack-note.html</loc>
+    
+    <lastmod>2018-02-27T15:28:57.647Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.zary.top/Vuejs-note.html</loc>
     
-    <lastmod>2018-02-26T10:32:08.942Z</lastmod>
+    <lastmod>2018-02-27T09:01:07.903Z</lastmod>
     
   </url>
   

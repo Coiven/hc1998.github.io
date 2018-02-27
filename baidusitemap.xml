@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://www.zary.top/webpack-note.html</loc>
+    <lastmod>2018-02-27T15:28:57.647Z</lastmod>
+    <data>
+        <display>
+        <title>webpack学习笔记</title>
+        <pubTime>2018-02-27T14:56:17.000Z</pubTime>
+        
+        <tag>前端</tag>
+         
+        <tag>webpack</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端, webpack" url="http://www.zary.top/categories/%E5%89%8D%E7%AB%AF-webpack/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.zary.top/Vuejs-note.html</loc>
-    <lastmod>2018-02-26T10:32:08.942Z</lastmod>
+    <lastmod>2018-02-27T09:01:07.903Z</lastmod>
     <data>
         <display>
         <title>Vue.js笔记</title>
