@@ -4,21 +4,69 @@
 
     
   <url>
+    <loc>http://www.zary.top/linux-learning-target.html</loc>
+    <lastmod>2018-02-27T16:08:21.978Z</lastmod>
+    <data>
+        <display>
+        <title>linux学习有感</title>
+        <pubTime>2018-02-02T08:03:45.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>plan</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="http://www.zary.top/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.zary.top/front-end-interview-questions.html</loc>
+    <lastmod>2018-02-27T16:07:47.763Z</lastmod>
+    <data>
+        <display>
+        <title>前端面试题整理</title>
+        <pubTime>2018-02-04T14:25:51.000Z</pubTime>
+        
+        <tag>Study</tag>
+         
+        <tag>work</tag>
+         
+        <tag>interview</tag>
+         
+         
+           
+             
+              <breadCrumb title="interview" url="http://www.zary.top/categories/interview/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.zary.top/webpack-note.html</loc>
-    <lastmod>2018-02-27T15:28:57.647Z</lastmod>
+    <lastmod>2018-02-27T16:07:07.029Z</lastmod>
     <data>
         <display>
         <title>webpack学习笔记</title>
         <pubTime>2018-02-27T14:56:17.000Z</pubTime>
         
-        <tag>前端</tag>
-         
         <tag>webpack</tag>
+         
+        <tag>note</tag>
+         
+        <tag>front-end</tag>
          
          
            
              
-              <breadCrumb title="前端, webpack" url="http://www.zary.top/categories/%E5%89%8D%E7%AB%AF-webpack/"/>
+              <breadCrumb title="note" url="http://www.zary.top/categories/note/"/>
           
         </display>
     </data>
@@ -27,7 +75,7 @@
     
   <url>
     <loc>http://www.zary.top/Vuejs-note.html</loc>
-    <lastmod>2018-02-27T09:01:07.903Z</lastmod>
+    <lastmod>2018-02-27T16:04:23.855Z</lastmod>
     <data>
         <display>
         <title>Vue.js笔记</title>
@@ -35,42 +83,40 @@
         
         <tag>Vue.js</tag>
          
-        <tag>学习笔记</tag>
+        <tag>note</tag>
          
          
            
              
-              <breadCrumb title="Vue.js, 学习笔记" url="http://www.zary.top/categories/Vue-js-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+              <breadCrumb title="note" url="http://www.zary.top/categories/note/"/>
           
         </display>
     </data>
     </url>
 
-    
     
   <url>
-    <loc>http://www.zary.top/front-end-interview-questions.html</loc>
-    <lastmod>2018-02-18T11:36:08.368Z</lastmod>
+    <loc>http://www.zary.top/hexo-server-deployment.html</loc>
+    <lastmod>2018-02-27T16:04:10.784Z</lastmod>
     <data>
         <display>
-        <title>前端面试题整理</title>
-        <pubTime>2018-02-04T14:25:51.000Z</pubTime>
+        <title>服务器部署hexo</title>
+        <pubTime>2018-01-07T11:59:34.000Z</pubTime>
         
-        <tag>学习</tag>
+        <tag>blog</tag>
          
-        <tag>工作</tag>
-         
-        <tag>面试</tag>
+        <tag>note</tag>
          
          
            
              
-              <breadCrumb title="面试" url="http://www.zary.top/categories/%E9%9D%A2%E8%AF%95/"/>
+              <breadCrumb title="blog" url="http://www.zary.top/categories/blog/"/>
           
         </display>
     </data>
     </url>
 
+    
     
   <url>
     <loc>http://www.zary.top/markdown-exercise.html</loc>
@@ -93,28 +139,6 @@
 
     
   <url>
-    <loc>http://www.zary.top/hexo-server-deployment.html</loc>
-    <lastmod>2018-02-18T11:35:23.471Z</lastmod>
-    <data>
-        <display>
-        <title>服务器部署hexo</title>
-        <pubTime>2018-01-07T11:59:34.000Z</pubTime>
-        
-        <tag>blog</tag>
-         
-        <tag>学习</tag>
-         
-         
-           
-             
-              <breadCrumb title="blog" url="http://www.zary.top/categories/blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.zary.top/hexo-skill.html</loc>
     <lastmod>2018-02-18T11:34:28.297Z</lastmod>
     <data>
@@ -128,28 +152,6 @@
            
              
               <breadCrumb title="blog" url="http://www.zary.top/categories/blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.zary.top/linux-learning-target.html</loc>
-    <lastmod>2018-02-18T11:33:18.453Z</lastmod>
-    <data>
-        <display>
-        <title>linux学习有感</title>
-        <pubTime>2018-02-02T08:03:45.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-        <tag>计划</tag>
-         
-         
-           
-             
-              <breadCrumb title="linux" url="http://www.zary.top/categories/linux/"/>
           
         </display>
     </data>
