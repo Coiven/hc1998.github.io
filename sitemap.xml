@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.zary.top/about/index.html</loc>
+    
+    <lastmod>2018-03-12T07:50:50.659Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.zary.top/linux-learning-target.html</loc>
     
     <lastmod>2018-02-27T16:08:21.978Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://www.zary.top/hexo-server-deployment.html</loc>
     
     <lastmod>2018-02-27T16:04:10.784Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.zary.top/about/index.html</loc>
-    
-    <lastmod>2018-02-19T07:25:15.109Z</lastmod>
     
   </url>
   

@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>http://www.zary.top/linux-learning-target.html</loc>
     <lastmod>2018-02-27T16:08:21.978Z</lastmod>
@@ -57,11 +58,11 @@
         <title>webpack学习笔记</title>
         <pubTime>2018-02-27T14:56:17.000Z</pubTime>
         
-        <tag>webpack</tag>
-         
         <tag>note</tag>
          
         <tag>front-end</tag>
+         
+        <tag>webpack</tag>
          
          
            
@@ -103,9 +104,9 @@
         <title>服务器部署hexo</title>
         <pubTime>2018-01-07T11:59:34.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>note</tag>
+         
+        <tag>blog</tag>
          
          
            
@@ -116,7 +117,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://www.zary.top/markdown-exercise.html</loc>
