@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.zary.top/the-best-API.html</loc>
+    
+    <lastmod>2018-03-25T10:17:46.323Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.zary.top/about/index.html</loc>
     
-    <lastmod>2018-03-12T07:50:50.659Z</lastmod>
+    <lastmod>2018-03-12T07:53:02.405Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.zary.top/Vuejs-note.html</loc>
+    
+    <lastmod>2018-02-28T13:05:56.983Z</lastmod>
     
   </url>
   
@@ -26,13 +40,6 @@
     <loc>http://www.zary.top/webpack-note.html</loc>
     
     <lastmod>2018-02-27T16:07:07.029Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.zary.top/Vuejs-note.html</loc>
-    
-    <lastmod>2018-02-27T16:04:23.855Z</lastmod>
     
   </url>
   

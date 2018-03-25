@@ -3,6 +3,50 @@
 
 
     
+  <url>
+    <loc>http://www.zary.top/the-best-API.html</loc>
+    <lastmod>2018-03-25T10:17:46.323Z</lastmod>
+    <data>
+        <display>
+        <title>大道至简--API设计的美学</title>
+        <pubTime>2018-03-25T10:00:00.000Z</pubTime>
+        
+        <tag>front-end</tag>
+         
+        <tag>api</tag>
+         
+         
+           
+             
+              <breadCrumb title="api" url="http://www.zary.top/categories/api/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://www.zary.top/Vuejs-note.html</loc>
+    <lastmod>2018-02-28T13:05:56.983Z</lastmod>
+    <data>
+        <display>
+        <title>Vue.js笔记</title>
+        <pubTime>2018-02-24T12:30:00.000Z</pubTime>
+        
+        <tag>Vue.js</tag>
+         
+        <tag>note</tag>
+         
+         
+           
+             
+              <breadCrumb title="note" url="http://www.zary.top/categories/note/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://www.zary.top/linux-learning-target.html</loc>
@@ -63,28 +107,6 @@
         <tag>front-end</tag>
          
         <tag>webpack</tag>
-         
-         
-           
-             
-              <breadCrumb title="note" url="http://www.zary.top/categories/note/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.zary.top/Vuejs-note.html</loc>
-    <lastmod>2018-02-27T16:04:23.855Z</lastmod>
-    <data>
-        <display>
-        <title>Vue.js笔记</title>
-        <pubTime>2018-02-24T12:30:00.000Z</pubTime>
-        
-        <tag>Vue.js</tag>
-         
-        <tag>note</tag>
          
          
            
